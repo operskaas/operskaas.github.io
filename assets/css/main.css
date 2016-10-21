@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/*my css*/
+
+.square-image {
+	border-color: #dddddd;
+	padding: 0.65em;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.skills li {
+	width: calc(20% - 2em);
+	margin-left: 2em;
+	margin-bottom: 3em;
+	padding: 0;
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1624,10 +1642,10 @@
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #77aad0 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #77aad0 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #77aad0 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #77aad0 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2823,7 +2841,7 @@
 
 /* Features */
 
-	.features {
+	.features, .skills{
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2845,7 +2863,7 @@
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
-			margin-top: 3em;
+			margin-bottom: 3em;
 			padding: 0;
 		}
 
@@ -3142,6 +3160,7 @@
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
+					width: 10em;
 					max-width: 75%;
 				}
 
@@ -3242,7 +3261,7 @@
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #efefef;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3432,7 +3451,7 @@
 			#main input[type="button"].special,
 			#main button.special,
 			#main .button.special {
-				background-color: #8cc9f0;
+				background-color: #77c1f1;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
