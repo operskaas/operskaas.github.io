@@ -18,6 +18,14 @@
 	width: 100%;
 }
 
+#main .icon.alt {
+	font-size: 48px;
+}
+
+#redux-img {
+	width: 112%;
+}
+
 .skills li {
 	width: calc(20% - 2em);
 	margin-left: 2em;
